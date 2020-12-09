@@ -1,0 +1,29 @@
+body {
+  margin-top: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #2b7a78;
+  overflow: hidden;
+  border-bottom: 6px solid #17252a;
+  /*fixes Navbar to top*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  padding: 12px 18px;
+  color: #feffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f16a6f
+}
