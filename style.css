@@ -47,6 +47,10 @@ nav a:hover {
   color: #17252a;
 }
 
+.active {
+  color: #f16a6f;
+}
+
 /* About Section */
 #about {
   background-color: #def2f1;
@@ -119,7 +123,7 @@ nav a:hover {
   position: relative;
 }
 
-.image {
+.card .image {
   width: 250px;
   height: 400px;
   object-fit: cover;
@@ -172,5 +176,55 @@ nav a:hover {
 
 #contact .title {
   font-size: 60px;
+  margin-bottom: 10px;
+}
+
+/* Resume tab */
+#resume {
+  background-color: #def2f1;
+  padding: 20px 25%;
+}
+
+/* Project tabs */
+#robotWrapper {
+  background-color: #def2f1;
+  padding: 20px 20%;
+  display: grid;
+  width: auto;
+  grid-template-rows: 120px 450px 1fr 1fr;
+}
+
+#judgingWrapper {
+  background-color: #def2f1;
+  padding: 20px 20%;
+  display: grid;
+  width: auto;
+  grid-template-rows: 60px 450px 1fr 1fr;
+}
+
+#webappWrapper {
+  background-color: #def2f1;
+  padding: 20px 20%;
+  display: grid;
+  width: auto;
+  grid-template-rows: 60px 450px 1fr;
+}
+
+.projectWrapper .title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.projectWrapper .image {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+  justify-self: center;
+  align-self: center;
+}
+
+.projectWrapper .textContent {
+  font-size: 18px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
